@@ -1,6 +1,6 @@
 #!/bin/bash
 set -eu -o pipefail
-
+#this is to validate git hub branching
 SCRIPT_DIR="$(cd "$(dirname "$0")" ; pwd -P)"
 
 . "${SCRIPT_DIR}/lib.sh"
